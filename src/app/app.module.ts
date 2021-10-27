@@ -9,6 +9,7 @@ import { InicioComponent } from './inicio/inicio.component';
 import { ProductosComponent } from './productos/productos.component';
 import { LoginComponent } from './login/login.component';
 import { RegistroComponent } from './registro/registro.component';
+import { CuentaComponent } from './cuenta/cuenta.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { RegistroComponent } from './registro/registro.component';
     InicioComponent,
     ProductosComponent,
     LoginComponent,
-    RegistroComponent
+    RegistroComponent,
+    CuentaComponent
   ],
   imports: [
     BrowserModule,
