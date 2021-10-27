@@ -103,16 +103,16 @@ h2 {
 }
 
 .btn {
-    color: #FF6F61;
+    color: #7FAD39;
     background: #ffffff;
-    border: 1px solid #FF6F61;
+    border: 1px solid #7FAD39;
 }
 
 .btn:hover,
 .btn:active,
 .btn:focus {
     color: #ffffff;
-    background: #FF6F61;
+    background: #7FAD39;
     box-shadow: none;
 }
 
@@ -254,7 +254,8 @@ h2 {
     margin-top: 0;
     border: 0;
     border-radius: 0;
-    background: #FF6F61;
+    /*background: #FF6F61;*/
+    background: #7FAD39;
 }
 
 .nav .dropdown-menu a.active {
@@ -265,7 +266,8 @@ h2 {
 @media (min-width: 768px) {
     .nav,
     .nav .navbar {
-        background: #FF6F61 !important;
+        /*background: #FF6F61 !important;*/
+        background: #7FAD39 !important;
     }
     
     .nav .navbar-brand {
@@ -331,7 +333,7 @@ h2 {
     height: 40px;
     padding: 0 15px;
     color: #666666;
-    border: 1px solid #FF6F61;
+    border: 1px solid #7FAD39;
     border-radius: 4px;
 }
 
@@ -344,7 +346,7 @@ h2 {
     padding: 0 15px;
     border: none;
     background: none;
-    color: #FF6F61;
+    color: #7FAD39;
     border-radius: 0 2px 2px 0;
 }
 
@@ -364,12 +366,12 @@ h2 {
 
 .bottom-bar .user .cart i,
 .bottom-bar .user .wishlist i {
-    color: #FF6F61;
+    color: #7FAD39;
 }
 
 .bottom-bar .user .cart span,
 .bottom-bar .user .wishlist span {
-    color: #FF6F61;
+    color: #7FAD39;
     font-size: 15px;
 }
 
