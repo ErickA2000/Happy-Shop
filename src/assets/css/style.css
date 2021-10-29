@@ -823,12 +823,12 @@ h2 {
     float: right;
     border: none;
     color: #000000;
-    background: #FF6F61;
+    background: #577B20;
 }
 
 .product-item:hover .product-price .btn,
 .product-item .product-price .btn:hover {
-    color: #FF6F61;
+    color: #577B20;
     background: #ffffff;
 }
 
@@ -853,7 +853,7 @@ h2 {
 .product .section-header {
     margin-bottom: 30px;
     padding: 20px 30px 15px 30px;
-    color: #FF6F61;
+    color: #000;
     background: #ffffff;
 }
 
