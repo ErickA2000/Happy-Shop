@@ -26,16 +26,16 @@
 
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav mr-auto">
-                    <a href="index.html" class="nav-item nav-link active">Inicio</a>
-                    <a href="product-list.html" class="nav-item nav-link">Productos</a>                  
-                    <a href="my-account.html" class="nav-item nav-link">Mi cuenta</a>                    
+                    <a routerLink="inicio" class="nav-item nav-link" routerLinkActive="active">Inicio</a>
+                    <a routerLink="productos" class="nav-item nav-link" routerLinkActive="active">Productos</a>                  
+                    <a routerLink="cuenta" class="nav-item nav-link" routerLinkActive="active">Mi cuenta</a>                    
                 </div>
                 <div class="navbar-nav ml-auto">
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Cuenta de usuario</a>
                         <div class="dropdown-menu">
-                            <a href="#" class="dropdown-item">Ingresar</a>
-                            <a href="#" class="dropdown-item">Registrarse</a>
+                            <a routerLink="login" class="dropdown-item">Ingresar</a>
+                            <a routerLink="registro" class="dropdown-item">Registrarse</a>
                         </div>
                     </div>
                 </div>
@@ -51,7 +51,7 @@
         <div class="row align-items-center">
             <div class="col-md-3">
                 <div class="logo">
-                    <a href="index.html">
+                    <a routerLink="inicio">
                         <img src="assets/img/logo.png" alt="Logo">
                     </a>
                 </div>
