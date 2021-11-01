@@ -1,16 +1,29 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+//rutas
 import { AppRoutingModule } from './app-routing.module';
+
+//componentes
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { ProductosComponent } from './productos/productos.component';
+import { LoginComponent } from './login/login.component';
+import { RegistroComponent } from './registro/registro.component';
+import { CuentaComponent } from './cuenta/cuenta.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    InicioComponent,
+    ProductosComponent,
+    LoginComponent,
+    RegistroComponent,
+    CuentaComponent
   ],
   imports: [
     BrowserModule,

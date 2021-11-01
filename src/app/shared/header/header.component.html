@@ -26,27 +26,16 @@
 
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav mr-auto">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="product-list.html" class="nav-item nav-link">Products</a>
-                    <a href="product-detail.html" class="nav-item nav-link">Product Detail</a>
-                    <a href="cart.html" class="nav-item nav-link">Cart</a>
-                    <a href="checkout.html" class="nav-item nav-link">Checkout</a>
-                    <a href="my-account.html" class="nav-item nav-link">My Account</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">More Pages</a>
-                        <div class="dropdown-menu">
-                            <a href="wishlist.html" class="dropdown-item">Wishlist</a>
-                            <a href="login.html" class="dropdown-item">Login & Register</a>
-                            <a href="contact.html" class="dropdown-item">Contact Us</a>
-                        </div>
-                    </div>
+                    <a routerLink="inicio" class="nav-item nav-link" routerLinkActive="active">Inicio</a>
+                    <a routerLink="productos" class="nav-item nav-link" routerLinkActive="active">Productos</a>                  
+                    <a routerLink="cuenta" class="nav-item nav-link" routerLinkActive="active">Mi cuenta</a>                    
                 </div>
                 <div class="navbar-nav ml-auto">
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">User Account</a>
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Cuenta de usuario</a>
                         <div class="dropdown-menu">
-                            <a href="#" class="dropdown-item">Login</a>
-                            <a href="#" class="dropdown-item">Register</a>
+                            <a routerLink="login" class="dropdown-item">Ingresar</a>
+                            <a routerLink="registro" class="dropdown-item">Registrarse</a>
                         </div>
                     </div>
                 </div>
@@ -62,23 +51,20 @@
         <div class="row align-items-center">
             <div class="col-md-3">
                 <div class="logo">
-                    <a href="index.html">
+                    <a routerLink="inicio">
                         <img src="assets/img/logo.png" alt="Logo">
                     </a>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="search">
-                    <input type="text" placeholder="Search">
+                    <input type="text" placeholder="Buscar">
                     <button><i class="fa fa-search"></i></button>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="user">
-                    <a href="wishlist.html" class="btn wishlist">
-                        <i class="fa fa-heart"></i>
-                        <span>(0)</span>
-                    </a>
+                    
                     <a href="cart.html" class="btn cart">
                         <i class="fa fa-shopping-cart"></i>
                         <span>(0)</span>
