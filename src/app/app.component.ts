@@ -10,10 +10,6 @@ import { InfoPaginaService } from './services/info-pagina.service';
 
 export class AppComponent {
   
-
-  info: any = {};
-  cargada = false;
-
   constructor( public infoPaginaService: InfoPaginaService){
 
   }
