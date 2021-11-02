@@ -7,8 +7,8 @@
                     <h2>Contáctanos</h2>
                     <div class="contact-info">
                         <p><i class="fa fa-map-marker"></i>HappyShop, Norte de Santander , Colombia</p>
-                        <p><i class="fa fa-envelope"></i>email@example.com</p>
-                        <p><i class="fa fa-phone"></i>+123-456-7890</p>
+                        <p><i class="fa fa-envelope"></i><a target="_black" href="mailTo:{{_infoPagina.info.email}}">{{_infoPagina.info.email}}</a></p>
+                        <p><i class="fa fa-phone"></i>{{_infoPagina.info.numero}}</p>
                     </div>
                 </div>
             </div>
@@ -18,9 +18,9 @@
                     <h2>Síguenos</h2>
                     <div class="contact-info">
                         <div class="social">
-                            <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href=""><i class="fab fa-facebook-f"></i></a>                            
-                            <a href=""><i class="fab fa-instagram"></i></a>                            
+                            <a target="_black" [href]="_infoPagina.info.twitter"><i class="fab fa-twitter"></i></a>
+                            <a target="_black" [href]="_infoPagina.info.facebook"><i class="fab fa-facebook-f"></i></a>                            
+                            <a target="_black" [href]="_infoPagina.info.instagram"><i class="fab fa-instagram"></i></a>                            
                         </div>
                     </div>
                 </div>
