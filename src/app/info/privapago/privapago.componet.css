@@ -43,11 +43,12 @@ margin-left: 5%;
 
 }
 img{
+    display:flex;
+    justify-content: center;
     width: 800px;
     height: 300px;
-    margin: 0 auto;
-    display: block;
-    
+    background-color: lightblue;
+    padding: 20px;
    
 
 }
